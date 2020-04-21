@@ -4,33 +4,51 @@
     <meta charset="UTF-8">
     <title>xyz</title>
     <style>
-       #div1{width:100%;height:200px;background:#7777;}
-#div2{width:100%;height:100px;background:white;}
-#divImg {position:relative; border:1px solid #7777; }
+        .Box{
+
+	border:2px solid grey;
+	width: 1200px;
+            height:300px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	text-align: left;
+	margin-left:0%;
+
+}
+       #div1{width:100%;height:200px;background: darkslategrey;font-size: 20px;font-weight: bold;text-align:center; line-height: 200px; color: white}
+#div2{width:100%;height:100px;background:white; font-weight: bold;color: dimgrey; text-align: center;line-height: 220px}
+#divImg {position:relative; border:1px solid #7777;}
 
 #divImg2 {position:absolute; border:1px solid #7777; left:50% }
 
-#divImg img { margin-left:00%; margin-top:-40%; }
+#divImg img { margin-left:-50%; margin-top:-40%; }
     </style>
 </head>
 <body>
-<div id="div1"></div>
+<div id="div1">Abhishek Tripathi</div>
 <div id="divImg">
   <div id="divImg2">
-    <img src="online-dating.jpg" style="width:150px" />
+    <img src="partA.png" style="width:150px" height="150px" align="center" />
   </div>
 </div>
-<div id="div2"></div>
+<div id="div2">Professor, Taxation</div>
 <br>
 <h1>About</h1>
-<svg width="1250" height="300">
-  <rect x="0" y="0" rx="30px" ry="30px" width="1250" height="300" stroke="black" stroke-width="3px" fill="white"/>
-  <text x="2%" y="10%">I am a student pursuing B-Tech in Pharmaceutical Engineering and Technology in Indian Institute of Technology(IIT), Varanasi. ... </text>
-</svg>
+<div class="Box" style="font-size: 20px; align: center">
+    <p>I am a student pursuing B-Tech in Pharmaceutical Engineering and Technology in Indian Institute of Technology(IIT), Varanasi. ... </text>
+</p>
+</div>
 <h1>Posts</h1>
-<svg width="1250" height="300">
-  <rect x="0" y="0" rx="30px" ry="30px" width="1250" height="300" stroke="black" stroke-width="3px" fill="white"/>
-    <text x="5%" y="10%"></text>
-</svg>
+<div class="Box" style="font-size: 20px; align: center">
+<p>20 Tips for CA Inter Taxation Preparation</p><br>
+      <img src="pic1.png" style="width: 120px; height: 120px; float:right" >
+      <br>
+    <br>
+    <br>
+    <p> Why traditional way of coaching for CA would not work any more</p>
+     <img src="pic2.jpg" style="width: 120px; height: 120px; float:right" >
+  </div>
 </body>
 </html>
